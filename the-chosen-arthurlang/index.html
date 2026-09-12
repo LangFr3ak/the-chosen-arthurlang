@@ -7,187 +7,320 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <!-- HEADER FINO FIXO -->
+  <header class="site-header">
+    <div class="header-inner">
+   <span class="header-logo">Freaky THE CHOSEN</span>
+
+      <nav class="tabs-nav" role="tablist" aria-label="Seções do site">
+        <button class="tab-btn is-active" role="tab" aria-selected="true" aria-controls="tab-sobre" id="tabbtn-sobre" data-tab="sobre">
+          Sobre mim
+        </button>
+        <button class="tab-btn" role="tab" aria-selected="false" aria-controls="tab-dicas" id="tabbtn-dicas" data-tab="dicas">
+          Dicas
+        </button>
+        <button class="tab-btn" role="tab" aria-selected="false" aria-controls="tab-evolucao" id="tabbtn-evolucao" data-tab="evolucao">
+          Evolução
+        </button>
+        <button class="tab-btn" role="tab" aria-selected="false" aria-controls="tab-redes" id="tabbtn-redes" data-tab="redes">
+          Redes sociais
+        </button>
+        <button class="tab-btn" role="tab" aria-selected="false" aria-controls="tab-embreve" id="tabbtn-embreve" data-tab="embreve">
+          Em breve
+        </button>
+      </nav>
+
+      <a class="header-cta" href="https://www.instagram.com/arthurlang_/" target="_blank">
+        Seguir agora
+      </a>
+    </div>
+  </header>
+
   <main class="page">
- <section class="hero hero-full">
-  <img src="img/capa.jpeg" alt="Capa The Chosen ArthurLang" class="hero-bg">
+    <section class="hero hero-split" id="home-hero">
+      <div class="hero-text">
+        <p class="eyebrow">Disciplina · Constância · Obsessão</p>
 
-  <div class="hero-overlay"></div>
+        <h1>
+          Ao sem talento, <em>obsessão</em>.
+        </h1>
 
-  <div class="hero-content hero-center">
-    <p class="tag">THE CHOSEN</p>
+        <p class="hero-subtitle">Influencer / Futuro atleta</p>
 
-    <h1>ArthurLang</h1>
+        <p class="description">
+          Para você que também quer ter uma evolução tanto física
+          quanto mentalmente, essa página serve para você.
+        </p>
 
-    <h2>
-      Ao sem talento,<br>
-      <span>Obsessão.</span>
-    </h2>
+        <div class="hero-actions">
+          <a
+            class="main-button"
+            href="https://www.tiktok.com/@arthurlang_?is_from_webapp=1&sender_device=pc"
+            target="_blank"
+          >
+            Acompanhar minha evolução
+          </a>
 
-    <p class="cover-subtitle">Influencer / Futuro atleta</p>
+          <div class="social-icons">
+            <a href="https://www.tiktok.com/@arthurlang_?is_from_webapp=1&sender_device=pc" target="_blank" aria-label="TikTok">
+              <img src="img/tiktok.jpeg" alt="TikTok">
+            </a>
 
-    <div class="social-icons">
-  <a href="https://www.tiktok.com/@arthurlang_?is_from_webapp=1&sender_device=pc" target="_blank" aria-label="TikTok">
-    <img src="img/tiktok.jpeg" alt="TikTok">
-  </a>
+            <a href="https://www.instagram.com/arthurlang_/" target="_blank" aria-label="Instagram">
+              <img src="img/instagram.jpeg" alt="Instagram">
+            </a>
+          </div>
+        </div>
 
-  <a href="https://www.instagram.com/arthurlang_/" target="_blank" aria-label="Instagram">
-    <img src="img/instagram.jpeg" alt="Instagram">
-  </a>
-</div>
-    <p class="description">
-      Para você que também quer ter uma evolução tanto física quanto mentalmente,
-      essa página serve para você.
-    </p>
-
-    <a 
-      class="main-button" 
-      href="https://www.tiktok.com/@arthurlang_?is_from_webapp=1&sender_device=pc" 
-      target="_blank"
-    >
-      Acompanhar minha evolução
-    </a>
-  </div>
-</section>
-
-    <section class="cards">
-      <div class="card">
-        <span>01</span>
-        <h3>Evolução física</h3>
-        <p><p>Não é só sobre shape. É sobre disciplina, constância e se tornar mais forte todos os dias.</p>
+        <p class="scroll-hint">Role para acompanhar a jornada ↓</p>
       </div>
 
-      <div class="card">
-        <span>02</span>
-        <h3>Evolução mental</h3>
-        <p><p>Uma mente fraca abandona no primeiro desconforto. Uma mente forte entende que evolução exige sacrifício.</p>
+      <div class="hero-media" id="hero-media">
+        <img src="img/capa.jpg" alt="Arthur Langame treinando" class="hero-photo" id="hero-photo">
       </div>
     </section>
-<section class="about-section">
-  <p class="section-tag">SOBRE MIM</p>
-  <h2 class="section-title">Quem é ArthurLang?</h2>
 
-  <p>
-    Meu nome é Arthur Langame, tenho 18 anos e comecei meus treinos aos 17. Desde então, eu entendi que evolução não vem de sorte, vem de escolha.
-  </p>
+    <!-- ABA: SOBRE MIM -->
+    <section class="tab-panel is-active" id="tab-sobre" role="tabpanel" aria-labelledby="tabbtn-sobre">
 
-  <p>
-    Eu não me considero alguém de talento absurdo ou "o cara da genética rara". Mas acredito que a constância, o estudo e a obsessão certa podem vencer muita coisa que parecia impossível.
-  </p>
+      <section class="about-section">
+        <p class="section-tag">01 — Sobre mim</p>
+        <h2 class="section-title">Quem é ArthurLang?</h2>
 
-  <p>
-    Essa página não é sobre fingir perfeição. É sobre mostrar o processo real: físico, mente, rotina, erros, ajustes e a busca diária por uma versão mais forte.
-  </p>
+        <p>
+          Meu nome é Arthur Langame, tenho 18 anos e comecei meus treinos aos 17. Desde então, eu entendi que evolução não vem de sorte, vem de escolha.
+        </p>
 
-  <p>
-    Ao sem talento, obsessão.
-  </p>
-</section>
+        <p>
+          Eu não me considero alguém de talento absurdo ou "o cara da genética rara". Mas acredito que a constância, o estudo e a obsessão certa podem vencer muita coisa que parecia impossível.
+        </p>
 
-<section class="manifesto-section">
-  <p class="section-tag">MANIFESTO</p>
+        <p>
+          Essa página não é sobre fingir perfeição. É sobre mostrar o processo real: físico, mente, rotina, erros, ajustes e a busca diária por uma versão mais forte.
+        </p>
 
-  <h2>
-    O sem talento não vence por dom.
-    <span>Vence porque não para.</span>
-  </h2>
+        <p>
+          Ao sem talento, obsessão.
+        </p>
+      </section>
 
-  <p>
-    Enquanto alguns esperam motivação, eu escolho construir disciplina.
-    A obsessão pelo progresso não é sobre pressa, é sobre não aceitar
-    continuar sendo a mesma versão todos os dias.
-  </p>
-</section>
+      <section class="manifesto-section">
+        <p class="section-tag">02 — Manifesto</p>
 
-<section class="pillars-section">
-  <p class="section-tag">MEUS PILARES</p>
-  <h2 class="section-title">O que sustenta minha evolução</h2>
+        <h2>
+          O sem talento não vence por dom.
+          <span>Vence porque não para.</span>
+        </h2>
 
-  <div class="pillars-grid">
-    <div class="pillar-card">
-      <span>01</span>
-      <h3>Disciplina</h3>
-      <p>Fazer o que precisa ser feito, mesmo quando a vontade não aparece.</p>
-    </div>
+        <p>
+          Enquanto alguns esperam motivação, eu escolho construir disciplina.
+          A obsessão pelo progresso não é sobre pressa, é sobre não aceitar
+          continuar sendo a mesma versão todos os dias.
+        </p>
+      </section>
 
-    <div class="pillar-card">
-      <span>02</span>
-      <h3>Estudo</h3>
-      <p>Entender treino, execução, dieta e parar de perder tempo errando o básico.</p>
-    </div>
+      <section class="pillars-section">
+        <p class="section-tag">03 — Meus pilares</p>
+        <h2 class="section-title">O que sustenta minha evolução</h2>
 
-    <div class="pillar-card">
-      <span>03</span>
-      <h3>Constância</h3>
-      <p>Não é sobre acertar uma semana. É sobre continuar tempo suficiente para mudar.</p>
-    </div>
+        <div class="pillars-grid">
+          <div class="pillar-card">
+            <span>01</span>
+            <h3>Disciplina</h3>
+            <p>Fazer o que precisa ser feito, mesmo quando a vontade não aparece.</p>
+          </div>
 
-    <div class="pillar-card">
-      <span>04</span>
-      <h3>Obsessão</h3>
-      <p>A busca silenciosa por uma versão mais forte, mesmo quando ninguém vê.</p>
-    </div>
-  </div>
-</section>
+          <div class="pillar-card">
+            <span>02</span>
+            <h3>Estudo</h3>
+            <p>Entender treino, execução, dieta e parar de perder tempo errando o básico.</p>
+          </div>
 
-<section class="evolution-section">
-  <div class="section-header">
-    <p class="section-tag">MINHA EVOLUÇÃO</p>
-    <h2 class="section-title">Do começo até agora</h2>
-  </div>
+          <div class="pillar-card">
+            <span>03</span>
+            <h3>Constância</h3>
+            <p>Não é sobre acertar uma semana. É sobre continuar tempo suficiente para mudar.</p>
+          </div>
 
-  <div class="evolution-grid">
-    <div class="evolution-photo">
-      <img src="img/evolucao1.jpeg" alt="Primeira fase da evolução">
-      <span>INÍCIO</span>
-    </div>
+          <div class="pillar-card">
+            <span>04</span>
+            <h3>Obsessão</h3>
+            <p>A busca silenciosa por uma versão mais forte, mesmo quando ninguém vê.</p>
+          </div>
+        </div>
+      </section>
 
-    <div class="evolution-photo">
-      <img src="img/evolucao2.jpeg" alt="Evolução atual">
-      <span>AGORA</span>
-    </div>
-  </div>
+      <section class="goals-section">
+        <p class="section-tag">04 — Meus objetivos</p>
+        <h2 class="section-title">Onde eu quero chegar</h2>
 
-  <p class="evolution-text">
-     Seus resultados não vão vir na velocidade da sua ansiedade. Nem todos têm a genética dos sonhos, mas isso não pode virar desculpa. Cabe a você vencer suas limitações, respeitar o tempo do seu corpo e continuar até o esforço se tornar visível.
-  </p>
-</section>
+        <div class="goals-grid">
+          <div class="goal-card">
+            <span class="goal-card-label">Como atleta</span>
+            <p>
+              Quero ser o maior fisiculturista possível: subir na categoria Open,
+              me tornar profissional e ser reconhecido não só pelo tamanho,
+              mas pelo carisma, pela energia e por quem eu sou no processo.
+            </p>
+          </div>
 
-<section class="tips-section">
-  <p class="section-tag">DICAS</p>
-  <h2 class="section-title">O que eu quero passar</h2>
+          <div class="goal-card">
+            <span class="goal-card-label">Este site</span>
+            <p>
+              Criei essa página pra ajudar quem me acompanha a se conhecer melhor
+              e ganhar mais conhecimento nas áreas que fazem parte da minha rotina:
+              treino, dieta, programação e vídeos.
+            </p>
+          </div>
+        </div>
+      </section>
+    </section>
 
-  <div class="tips-grid">
-    <div class="tip-card">
-      <span>01</span>
-      <h3>Não comece no escuro</h3>
-      <p>
-        Não entre no processo sem saber o que está fazendo. Estude seu treino,
-        entenda sua execução, aprenda sobre dieta e procure evoluir com inteligência.
-        Conhecimento economiza anos de erro.
-      </p>
-    </div>
+    <!-- ABA: DICAS -->
+    <section class="tab-panel" id="tab-dicas" role="tabpanel" aria-labelledby="tabbtn-dicas" hidden>
+      <section class="tips-section">
+        <p class="section-tag">01 — Dicas</p>
+        <h2 class="section-title">O que eu quero passar</h2>
 
-    <div class="tip-card">
-      <span>02</span>
-      <h3>O difícil começa fora do treino</h3>
-      <p>
-        Treinar é só uma parte. O mais pesado é manter dieta, sono, rotina e disciplina
-        quando ninguém está vendo. Muitos caem nessa parte. Você precisa ser mais forte
-        que a vontade de desistir.
-      </p>
-    </div>
+        <div class="tips-grid">
+          <div class="tip-card">
+            <span>01</span>
+            <h3>Não comece no escuro</h3>
+            <p>
+              Não entre no processo sem saber o que está fazendo. Estude seu treino,
+              entenda sua execução, aprenda sobre dieta e procure evoluir com inteligência.
+              Conhecimento economiza anos de erro.
+            </p>
+          </div>
 
-    <div class="tip-card">
-      <span>03</span>
-      <h3>Tenha calma com o processo</h3>
-      <p>
-        Nem sempre a evolução vem rápido. Seu corpo leva tempo para responder,
-        e seu legado não é construído em uma semana. Continue fazendo o certo,
-        mesmo quando o resultado ainda não apareceu.
-      </p>
-    </div>
-  </div>
-</section>
+          <div class="tip-card">
+            <span>02</span>
+            <h3>O difícil começa fora do treino</h3>
+            <p>
+              Treinar é só uma parte. O mais pesado é manter dieta, sono, rotina e disciplina
+              quando ninguém está vendo. Muitos caem nessa parte. Você precisa ser mais forte
+              que a vontade de desistir.
+            </p>
+          </div>
+
+          <div class="tip-card">
+            <span>03</span>
+            <h3>Tenha calma com o processo</h3>
+            <p>
+              Nem sempre a evolução vem rápido. Seu corpo leva tempo para responder,
+              e seu legado não é construído em uma semana. Continue fazendo o certo,
+              mesmo quando o resultado ainda não apareceu.
+            </p>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <!-- ABA: EVOLUÇÃO -->
+    <section class="tab-panel" id="tab-evolucao" role="tabpanel" aria-labelledby="tabbtn-evolucao" hidden>
+
+      <section class="cards">
+        <div class="card">
+          <span>01</span>
+          <h3>Evolução física</h3>
+          <p>Não é só sobre shape. É sobre disciplina, constância e se tornar mais forte todos os dias.</p>
+        </div>
+
+        <div class="card">
+          <span>02</span>
+          <h3>Evolução mental</h3>
+          <p>Uma mente fraca abandona no primeiro desconforto. Uma mente forte entende que evolução exige sacrifício.</p>
+        </div>
+      </section>
+
+      <section class="evolution-section">
+        <div class="section-header">
+          <p class="section-tag">01 — Minha evolução</p>
+          <h2 class="section-title">Do começo até agora</h2>
+        </div>
+
+        <div class="evolution-grid">
+          <div class="evolution-photo">
+            <div class="evolution-photo-clip">
+              <img src="img/evolucao1.jpeg" alt="Primeira fase da evolução">
+            </div>
+            <span>INÍCIO</span>
+          </div>
+
+          <div class="evolution-photo">
+            <div class="evolution-photo-clip">
+              <img src="img/evolucao2.jpeg" alt="Evolução atual">
+            </div>
+            <span>AGORA</span>
+          </div>
+        </div>
+
+        <p class="evolution-text">
+          Seus resultados não vão vir na velocidade da sua ansiedade. Nem todos têm a genética dos sonhos, mas isso não pode virar desculpa. Cabe a você vencer suas limitações, respeitar o tempo do seu corpo e continuar até o esforço se tornar visível.
+        </p>
+      </section>
+    </section>
+
+    <!-- ABA: REDES SOCIAIS -->
+    <section class="tab-panel" id="tab-redes" role="tabpanel" aria-labelledby="tabbtn-redes" hidden>
+      <section class="social-section">
+        <p class="section-tag">01 — Redes sociais</p>
+        <h2 class="section-title">Me acompanhe de perto</h2>
+
+        <div class="links">
+          <a href="https://www.instagram.com/arthurlang_/" target="_blank">Instagram</a>
+          <a href="https://www.tiktok.com/@arthurlang_?is_from_webapp=1&sender_device=pc" target="_blank">TikTok</a>
+          <a href="https://www.youtube.com/@arthurlang7" target="_blank">YouTube</a>
+        </div>
+      </section>
+    </section>
+
+    <!-- ABA: EM BREVE -->
+    <section class="tab-panel" id="tab-embreve" role="tabpanel" aria-labelledby="tabbtn-embreve" hidden>
+      <section class="soon-section">
+        <p class="section-tag">01 — Em breve</p>
+        <h2 class="section-title">O que está sendo construído</h2>
+        <p class="soon-intro">
+          Três frentes que estou preparando com calma, sem pressa e sem enrolação.
+          Cada uma vai poder ser adquirida separadamente, do seu jeito — sem pacote
+          empurrado. A ideia aqui é ajudar de verdade, não vender ilusão.
+        </p>
+
+        <div class="soon-grid">
+          <button class="soon-card" type="button" data-soon="fisico">
+            <div class="soon-card-photo">
+              <img src="img/em-breve-fisico.jpg" alt="Evolução física e nutrição" onerror="this.parentElement.classList.add('no-photo')">
+            </div>
+            <span class="soon-card-tag">01</span>
+            <h3>Evolução física</h3>
+            <p>Educação física e nutrição: como montar sua dieta, seu treino e a execução certa.</p>
+          </button>
+
+          <button class="soon-card" type="button" data-soon="engajamento">
+            <div class="soon-card-photo">
+              <img src="img/em-breve-engajamento.jpg" alt="Engajamento e produção de vídeos" onerror="this.parentElement.classList.add('no-photo')">
+            </div>
+            <span class="soon-card-tag">02</span>
+            <h3>Engajamento &amp; vídeos</h3>
+            <p>Edição, gravação, roteiro e rotina de home office pra criar conteúdo de verdade.</p>
+          </button>
+
+          <button class="soon-card" type="button" data-soon="programacao">
+            <div class="soon-card-photo">
+              <img src="img/em-breve-programacao.jpg" alt="Programação" onerror="this.parentElement.classList.add('no-photo')">
+            </div>
+            <span class="soon-card-tag">03</span>
+            <h3>Programação</h3>
+            <p>A área nerd: dicas de programação e o meu primeiro app/site sendo construído.</p>
+          </button>
+        </div>
+      </section>
+    </section>
+
+    <footer class="site-footer">
+      <p class="footer-tag">CONTATO PARA EMPRESAS E PARCERIAS</p>
+      <p class="footer-text">Interessado em uma parceria? Email:arthurlang.contato@gmail.com</p>
+    </footer>
   </main>
 
   <script src="script.js"></script>
