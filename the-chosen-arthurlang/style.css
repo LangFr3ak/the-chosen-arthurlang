@@ -576,6 +576,7 @@ h2 span {
     display: flex;
     flex-direction: column;
     margin: 0;
+    padding-top: 145px;
   }
 
   .hero-text {
