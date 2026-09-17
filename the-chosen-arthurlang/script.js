@@ -33,8 +33,9 @@ document.addEventListener("DOMContentLoaded", () => {
   // Efeito: a foto de capa vai sumindo (fade + leve zoom) conforme rola a página
   const heroMedia = document.getElementById("hero-media");
   const heroPhoto = document.getElementById("hero-photo");
+  const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-  if (heroMedia && heroPhoto) {
+  if (heroMedia && heroPhoto && !prefersReducedMotion) {
     const fadeDistance = () => window.innerHeight * 0.9;
 
     function updateHeroFade() {
@@ -63,6 +64,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const toast = document.createElement("div");
     toast.className = "soon-toast";
+    toast.setAttribute("role", "status");
+    toast.setAttribute("aria-live", "polite");
     toast.innerHTML = `<strong>${soonLabels[key] || "Essa área"}</strong> ainda não está pronta — sendo construída com calma. Em breve, sem enrolação.`;
     document.body.appendChild(toast);
 

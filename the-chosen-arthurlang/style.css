@@ -630,7 +630,6 @@ h2 span {
     font-size: clamp(23px, 7.4vw, 31px);
     line-height: 1.12;
     margin-bottom: 16px;
-    text-align: center;
   }
 
   .hero-subtitle {
@@ -1060,5 +1059,24 @@ h2 span {
 @media (max-width: 800px) {
   .site-footer {
     padding: 22px 20px 36px;
+  }
+}
+/* ===== ACESSIBILIDADE: respeita quem prefere menos animação ===== */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+
+  .hero-media,
+  .hero-photo {
+    transition: none !important;
+  }
+
+  .tab-panel {
+    animation: none !important;
   }
 }
